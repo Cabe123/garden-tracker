@@ -1,0 +1,129 @@
+
+body{
+    /* background-color: rgb(142, 188, 109); */
+    background-color: rgb(243, 243, 243);
+}
+
+header{
+    box-shadow: 0px 10px 30px 5px rgb(204, 204, 204);
+}
+
+.container{
+    background-color: white;
+    height: 650px;
+    /* box-shadow: 0px 20px 40px 10px rgb(123, 163, 95); */
+    box-shadow: 0px 20px 40px 10px rgb(204, 204, 204);
+}
+
+#plotsContainer{
+    background-color: white;
+    border: 30px white solid;
+    margin: auto;
+    width: 90%;
+    height: 550px;
+    margin-top: 50px;
+    padding: 50px; 
+    overflow-x: auto;
+}
+
+#btnContainer{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px; 
+}
+
+
+.plotIcon{
+    position: relative;
+    display: inline-block;
+    /* margin: 40px;  */
+    margin: 5%;
+    text-align: center;
+}
+
+.plotIcon img{
+    width: 150px;
+    height: 130px;
+    box-shadow: 0px 7px 10px 2px rgb(228, 228, 228);
+}
+
+.plotIcon h3{
+    color: rgb(116, 116, 116);
+}
+
+.plotIcon:hover{
+    cursor: pointer;
+    color: rgb(219, 219, 219);
+}
+
+#createPlotIcon{
+    position: relative;
+    display: inline-block;
+    /* margin: 40px;  */
+    margin: 5%;
+    text-align: center;
+}
+
+#createPlotIcon img{
+    width: 150px;
+    height: 130px;
+    box-shadow: 0px 7px 10px 2px rgb(228, 228, 228);
+}
+
+#createPlotIcon h3{
+    color: rgb(116, 116, 116);
+}
+
+#createPlotIcon:hover{
+    cursor: pointer;
+    color: rgb(219, 219, 219);
+}
+
+
+
+.deletePlotBtn{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    top: 72px;
+    right: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.nav-item img:hover{
+    cursor: pointer;
+}
+
+#modalDeletePlotsContainer{
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 15px; 
+    text-align: center;
+}
+
+#modalDeletePlotsContainer div h5{
+    display: inline-block;
+}
+#modalDeletePlotsContainer div button{
+    display: inline-block;
+}
+
+#modalDeletePlotsTable{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#modalDeletePlotsTable tr td{
+    height: 80px;
+}
+
+#modalDeletePlotsTable tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
